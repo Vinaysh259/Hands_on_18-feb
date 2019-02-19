@@ -9,18 +9,24 @@ namespace String
         {
             string a;
             int i, l;
-           
+
             Console.WriteLine("Enter the input String");
             a = Console.ReadLine();
             l = a.Length;
-            for(i=0;i<l;i++)
+            for (i = 0; i < l; i++)
             {
                 char Last = a[i];
                 Last++;
-                
-                Console.WriteLine(Last);
+                if (a[i] == 'z')
+                    Console.WriteLine('a');
+                else if (a[i] == 'Z')
+                    Console.WriteLine('A');
+                else
+                {
+                    Console.WriteLine(Last);
+                }
             }
-            
+
             Console.ReadKey();
 
 
