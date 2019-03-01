@@ -5,18 +5,19 @@ namespace MovieTicketBooking
 {
     class Movie
     {
-        private int MovieID;
-        private string MovieName;
-        private string Director;
-        private string Producer;
-        private string Cast;
+        private int MovieID { get; set; }
+        private string MovieName { get; set; }
+        private string Director { get; set; }
+        private string Producer { get; set; }
+        private string Cast { get; set; }
 
-        private double Duration;
-        private string Story;
-        private string Type;
+        private double Duration { get; set; }
+        private string Story { get; set; }
+        private string Type { get; set; }
 
-        public Movie(Random rand1, string a, string b, string c, string d, double e, string f, string g)
+        public Movie(string a = "DDLJ", string b = "Yash Chopra", string c = "Rohit Shetty", string d = "SRK", double e = 1.5, string f = "love", string g = "upcoming")
         {
+            Random rand1 = new Random();
             MovieID = rand1.Next();
 
             MovieName = a;
@@ -34,22 +35,28 @@ namespace MovieTicketBooking
         }
         class Theatre
         {
-            private int TheatreID;
-            private string TheatreName;
-            private string CityName;
-            private string Address;
-            private int NoOfScreens;
-            private List<int> Screens;
+            private int TheatreID { get; set; }
+            private string TheatreName { get; set; }
+            private string CityName { get; set; }
+            private string Address { get; set; }
+            private int NoOfScreens { get; set; }
+            private List<int> Screens { get; set; }
 
-            public Theatre(Random rand2, string a, string b, string c, int d, List<int> e)
+            public Theatre(string a = "INOX", string b = "Ranchi", string c = "XYZ", int d = 5)
             {
+                Random rand2 = new Random();
                 TheatreID = rand2.Next();
 
                 TheatreName = a;
                 CityName = b;
                 Address = c;
                 NoOfScreens = d;
-                Screens = e;
+                for (int i = 1; i <= NoOfScreens; i++)
+                {
+                    Screens.Add(i);
+                   
+                }
+                
 
             }
             public void DisplayTheatreDetails()
@@ -58,53 +65,50 @@ namespace MovieTicketBooking
                 Console.WriteLine("TheatreID={0}\nTheatreName={1}\nCityName={2}\nAddress={3}\nNoOfScreens={4}", TheatreID, TheatreName, CityName, Address, NoOfScreens);
                 for (int i = 1; i <= NoOfScreens; i++)
                 {
-                    Screens.Add(i);
-                    Console.WriteLine("screen no.{0}:{1}", i, i);
+                   
+                    Console.WriteLine("screen no:{0}", Screens[i]);
                 }
             }
-            /*class Screen
+            class Screen
             {
                 private int ScreenID;
-                
-                private SortedList<int, string> Seats ;
+
+                private SortedList<int, string> Seats;
 
                 public Screen()
                 {
                     ScreenID = 1000;
                     SortedList<int, string> Seats = new SortedList<int, string>();
-                    while (ScreenID < 1005)
+
+                    for (int i = 1; i <= 50; i++)
                     {
-                        for (int i = 1; i <= 50; i++)
-                        {
-                            Seats.Add(i, "V");
-                        }
-                        ScreenID++;
+                        Seats.Add(i, "Vacant");
                     }
+
 
                 }
 
                 public void DisplayScreenDetails()
                 {
-                    
+
                     Console.WriteLine("details of the screen and corresponding seats:");
-                    while (ScreenID < 1005)
+
+                    Console.WriteLine("screen id:{0}\n", ScreenID);
                     {
-                        Console.WriteLine("screen id:{0}\n", ScreenID);
+                        for (int i = 1; i <= 50; i++)
                         {
-                            for (int i = 1; i <= 50; i++)
-                            {
-                                Console.WriteLine("seat no.:{0},status:{1}",i,"V");
-                            }
+                            string str = Seats[i];
+                            Console.WriteLine("seat no.:{0},status:{1}", i, str);
                         }
-                        ScreenID++;
+
                     }
-                }*/
+                }
+
                 static void Main()
                 {
 
                     Console.WriteLine("enter the details of the movie");
-                    Random rand1 = new Random();
-                    Random rand2 = new Random();
+
                     string MovieName1 = Console.ReadLine();
                     string Director1 = Console.ReadLine();
                     string Producer1 = Console.ReadLine();
@@ -113,7 +117,7 @@ namespace MovieTicketBooking
                     string Story1 = Console.ReadLine();
                     string Type1 = Console.ReadLine();
 
-                    Movie m = new Movie(rand1, MovieName1, Director1, Producer1, Cast1, Duration1, Story1, Type1);
+                    Movie m = new Movie(MovieName1, Director1, Producer1, Cast1, Duration1, Story1, Type1);
 
 
 
@@ -123,15 +127,15 @@ namespace MovieTicketBooking
                     string Address1 = Console.ReadLine();
 
                     int NoOfScreens1 = int.Parse(Console.ReadLine());
-                    List<int> Screens1 = new List<int>();
+                    
 
-                    Theatre t = new Theatre(rand2, TheatreName1, CityName1, Address1, NoOfScreens1, Screens1);
+                    Theatre t = new Theatre(TheatreName1, CityName1, Address1, NoOfScreens1);
 
                     m.DisplayMovieDetails();
                     t.DisplayTheatreDetails();
-                    /*SortedList<int, string> Seats1 = new SortedList<int, string>();
+                    
                     Screen s = new Screen();
-                    s.DisplayScreenDetails();*/
+                    s.DisplayScreenDetails();
 
 
                     Console.ReadKey();
@@ -139,6 +143,7 @@ namespace MovieTicketBooking
             }
         }
     }
+}
 
 
 

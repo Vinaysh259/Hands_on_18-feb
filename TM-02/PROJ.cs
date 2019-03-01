@@ -29,7 +29,7 @@ namespace ConsoleApp7
             else
                 throw new Exception("TheatreID cannot be negative");
             if (s_id >0)
-                ScreenID = s_id;
+                ScreenID = sc_id;
             else
                 throw new Exception("ScreenID cannot be negative");
             
