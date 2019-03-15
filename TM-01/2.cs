@@ -34,9 +34,9 @@ namespace String
 
         }
     }
-<<<<<<< HEAD
+
 }
-=======
-}
+
+
 	
->>>>>>> ea88d3e565a131d8f9f4a6755a703a1b8c3bcf7e
+
