@@ -20,7 +20,7 @@ namespace _11
                 a[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.Write("\nThe values store into the array are : \n");
+            Console.Write("\nThe values stored in the array : \n");
             for (i = 0; i < 10; i++)
             {
                 Console.Write("{0}  ", a[i]);
