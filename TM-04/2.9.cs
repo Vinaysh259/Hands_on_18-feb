@@ -50,7 +50,7 @@ namespace String
                 if ((int)val.Value == 1)
                     Console.WriteLine("{0} is an alphabet. ", val.Key);
                 else
-                    Console.WriteLine("{0} is not an alphabet. ", val.Key);
+                    Console.WriteLine("{0} is a digit. ", val.Key);
             }
             Console.ReadKey();
         }
