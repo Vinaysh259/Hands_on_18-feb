@@ -31,7 +31,8 @@ namespace ConsoleApp6
         {
             int num1, num2,rnd;
             double rnd1;
-            RandomHelper rnd = new RandomHelper();
+            /*RandomHelper rnd = new RandomHelper(); //since the methods defined in RandomHelper class is static so no need to form object of this class we can
+            directly access class to call those methods*/
             Console.WriteLine("Welcome to Random number generation");
             Console.WriteLine("Enter two limits for generating random number :");
             Console.WriteLine("Number1 :");
@@ -39,12 +40,12 @@ namespace ConsoleApp6
             Console.WriteLine("Number2 :");
             num2 = int.Parse(Console.ReadLine());
             Console.WriteLine("Random Integer : ");
-            /*rnd=RandomHelper.RandInt(num1, num2);
+            rnd=RandomHelper.RandInt(num1, num2);
             Console.WriteLine(rnd);
             Console.WriteLine("Random Double :");
             rnd1 = RandomHelper.RandDouble(num1, num2);
-            Console.WriteLine(rnd1);*/
-            Console.WriteLine("random integer:{0}\nrandom double:{1}", rnd.RandInt(num1, num2), rnd.RandDouble(num1, num2));
+            Console.WriteLine(rnd1);
+            Console.WriteLine("random integer:{0}\nrandom double:{1}", rnd, rnd1);
             Console.ReadKey();
         }
     } 
