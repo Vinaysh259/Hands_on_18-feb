@@ -1,0 +1,10 @@
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\bin\Debug\1.exe.config
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\bin\Debug\1.exe
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\bin\Debug\1.pdb
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\obj\Debug\1.csprojAssemblyReference.cache
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\obj\Debug\_1.Form1.resources
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\obj\Debug\_1.Properties.Resources.resources
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\obj\Debug\1.csproj.GenerateResource.cache
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\obj\Debug\1.csproj.CoreCompileInputs.cache
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\obj\Debug\1.exe
+C:\Users\MAHE\Desktop\PJP\handson\chapter 5\1\1\obj\Debug\1.pdb
