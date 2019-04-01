@@ -16,6 +16,8 @@ namespace ConsoleApp10
 
     class EmployeeDAL
     {
+
+
         ArrayList employees = new ArrayList();
         public bool AddEmployee(Employee e)
         {
@@ -23,58 +25,69 @@ namespace ConsoleApp10
             return true;
         }
 
-        public bool DeleteEmployee(int id)
+        public bool DeleteEmployee(Employee e)
         {
-            employees.RemoveAt(id);
+            employees.Remove(e);
             return true;
         }
 
-        public string SearchEmployee(int id)
+        public string SearchEmployee(Employee e)
         {
-            if (employees.Contains(id))
+            if (employees.Contains(e))
                 return "Employee found";
             else
                 return "Employee Not found";
-            
+
         }
-        /*
+
         public Employee[] GetAllEmployeesistAll()
         {
-           
+            Employee[] e = (Employee[])employees.ToArray(typeof(Employee));
+
+            return e;
         }
-        */
+
     }
 
     class TestProgram
     {
         static void Main(string[] args)
         {
-            Employee e = new Employee();
+            Employee e1 = new Employee();
+            Employee e2 = new Employee();
+            Employee e3 = new Employee();
             EmployeeDAL ed = new EmployeeDAL();
-          //  for (int i = 1; i < 10; i++)
+            //  for (int i = 1; i < 10; i++)
             //{
-                e.EmployeeName = "Vinay";
-                e.EmployeeID = 1;
-                e.Salary = 20000;
+            e1.EmployeeName = "Vinay";
+            e1.EmployeeID = 1;
+            e1.Salary = 20000;
 
-            if (ed.AddEmployee(e))
+            if (ed.AddEmployee(e1))
                 Console.WriteLine("Employee Created");
 
-            e.EmployeeName = "Reshma";
-            e.EmployeeID = 2;
-            e.Salary = 20000;
-            if (ed.AddEmployee(e))
+            e2.EmployeeName = "Reshma";
+            e2.EmployeeID = 2;
+            e2.Salary = 20000;
+            if (ed.AddEmployee(e2))
                 Console.WriteLine("Employee Created");
-            e.EmployeeName = "aeshma";
-            e.EmployeeID = 3;
-            e.Salary = 20000;
-            if (ed.AddEmployee(e))
+
+            e3.EmployeeName = "aeshma";
+            e3.EmployeeID = 3;
+            e3.Salary = 20000;
+            if (ed.AddEmployee(e3))
                 Console.WriteLine("Employee Created");
             //            }
-            
-            if (ed.DeleteEmployee((1)))
+
+            if (ed.DeleteEmployee(e2))
                 Console.WriteLine("Employee Deleted");
-            Console.WriteLine(ed.SearchEmployee());
+            Console.WriteLine(ed.SearchEmployee(e1));
+            Employee[] e4 = ed.GetAllEmployeesistAll();
+            foreach (var val in e4)
+            {
+                Console.WriteLine("Employee Name :{0}", val.EmployeeName);
+                Console.WriteLine("Employee ID :{0}", val.EmployeeID);
+            }
             Console.ReadKey();
         }
     }
