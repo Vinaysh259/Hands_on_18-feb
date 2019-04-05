@@ -1,0 +1,1 @@
+select emp_id from pubs.dbo.employee where (YEAR(hire_date) = 1981);

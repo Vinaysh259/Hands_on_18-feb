@@ -1,0 +1,1 @@
+select title from pubs.dbo.titles where (price between 20 and 55); 

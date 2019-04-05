@@ -1,0 +1,1 @@
+select title from pubs.dbo.publishers inner join pubs.dbo.titles on titles.pub_id = publishers.pub_id and city like 'B%';

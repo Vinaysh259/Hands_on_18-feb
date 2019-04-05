@@ -1,0 +1,1 @@
+select title_id,price as old_price,(price + 0.2 * price) as new_price from pubs.dbo.titles;

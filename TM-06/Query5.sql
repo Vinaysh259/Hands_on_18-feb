@@ -1,0 +1,1 @@
+select year(hire_date) as year_of_joining from pubs.dbo.employee;
