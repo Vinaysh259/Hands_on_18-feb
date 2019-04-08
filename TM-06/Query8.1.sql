@@ -1,1 +1,1 @@
-select qty as Total_Sales from pubs.dbo.sales inner join (pubs.dbo.publishers inner join pubs.dbo.titles on publishers.pub_id=titles.pub_id) on sales.title_id = titles.title_id where pub_name='New Moon Books';
+select sum(qty) as total_sales from pubs.dbo.sales inner join (pubs.dbo.publishers inner join pubs.dbo.titles on publishers.pub_id=titles.pub_id) on sales.title_id = titles.title_id where pub_name='New Moon Books' group by sales.title_id;
