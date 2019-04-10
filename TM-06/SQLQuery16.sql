@@ -1,0 +1,1 @@
+select translate (fname,'abcdefghijklmnopqrstuvwxyz','**************************') from employee;

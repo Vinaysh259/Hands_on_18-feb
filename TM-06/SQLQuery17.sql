@@ -1,0 +1,1 @@
+select CONCAT((replace(substring(fname,1,1),substring(fname,1,1),LOWER(substring(fname,1,1)))),(replace(substring(fname,2,LEN(fname)),substring(fname,2,LEN(fname)),upper(substring(fname,2,len(fname)))))) as new_fname from employee;

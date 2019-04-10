@@ -1,0 +1,1 @@
+select * from employee where day(hire_date)>27;

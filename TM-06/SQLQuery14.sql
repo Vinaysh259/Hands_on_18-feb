@@ -1,0 +1,1 @@
+select * from employee where (month(hire_date)<4);

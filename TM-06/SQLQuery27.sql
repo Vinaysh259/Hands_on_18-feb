@@ -1,0 +1,1 @@
+select title from titles where price> all(select price from titles where type='business');

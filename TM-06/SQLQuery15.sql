@@ -1,0 +1,1 @@
+select RIGHT (lname,3) as extract_string from employee;
