@@ -25,19 +25,24 @@ namespace WindowsFormsApp7
             {
                 comboBox1.Items.Add(Drive);
             }
-            comboBox1.SelectedIndex = 0;
+            //comboBox1.SelectedIndex = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
             string myvariable = comboBox1.Text;
-            //string[] files = Directory.GetFiles(myvariable);
-            var files = Directory.EnumerateFiles(myvariable);
+            string[] files = Directory.GetDirectories(myvariable);
+             string[] files1 = Directory.GetFiles(myvariable);
+            //var files = Directory.EnumerateFiles(myvariable);
             foreach(var val in files)
             {
                 listBox1.Items.Add(val);
             }
-
+             foreach(var val in files1)
+            {
+                listBox1.Items.Add(val);
+            }
         }
     }
 }

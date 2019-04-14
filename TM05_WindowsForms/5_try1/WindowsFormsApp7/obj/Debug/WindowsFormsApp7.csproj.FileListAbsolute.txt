@@ -8,3 +8,13 @@ C:\Users\MAHE\source\repos\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFo
 C:\Users\MAHE\source\repos\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
 C:\Users\MAHE\source\repos\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
 C:\Users\MAHE\source\repos\WindowsFormsApp7\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csprojAssemblyReference.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Form1.resources
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.Properties.Resources.resources
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.GenerateResource.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.csproj.CoreCompileInputs.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.exe
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\obj\Debug\WindowsFormsApp7.pdb
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe.config
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.exe
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM05_WindowsForms\5_try1\WindowsFormsApp7\bin\Debug\WindowsFormsApp7.pdb
