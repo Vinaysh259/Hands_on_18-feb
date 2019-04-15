@@ -1,0 +1,10 @@
+C:\Users\MAHE\source\repos\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\MAHE\source\repos\Employee\Employee\bin\Debug\Employee.exe
+C:\Users\MAHE\source\repos\Employee\Employee\bin\Debug\Employee.pdb
+C:\Users\MAHE\source\repos\Employee\Employee\obj\Debug\Employee.csprojAssemblyReference.cache
+C:\Users\MAHE\source\repos\Employee\Employee\obj\Debug\Employee.Form1.resources
+C:\Users\MAHE\source\repos\Employee\Employee\obj\Debug\Employee.Properties.Resources.resources
+C:\Users\MAHE\source\repos\Employee\Employee\obj\Debug\Employee.csproj.GenerateResource.cache
+C:\Users\MAHE\source\repos\Employee\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache
+C:\Users\MAHE\source\repos\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\MAHE\source\repos\Employee\Employee\obj\Debug\Employee.pdb
