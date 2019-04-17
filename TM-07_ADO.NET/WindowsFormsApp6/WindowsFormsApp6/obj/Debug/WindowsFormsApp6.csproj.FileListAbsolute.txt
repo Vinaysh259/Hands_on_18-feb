@@ -8,3 +8,13 @@ C:\Users\MAHE\source\repos\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFo
 C:\Users\MAHE\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
 C:\Users\MAHE\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
 C:\Users\MAHE\source\repos\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe.config
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.exe
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\bin\Debug\WindowsFormsApp6.pdb
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csprojAssemblyReference.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Form1.resources
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.Properties.Resources.resources
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.GenerateResource.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.csproj.CoreCompileInputs.cache
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.exe
+C:\Users\MAHE\Desktop\demo\Hands_on_18-feb\TM-07_ADO.NET\WindowsFormsApp6\WindowsFormsApp6\obj\Debug\WindowsFormsApp6.pdb

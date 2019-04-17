@@ -20,7 +20,7 @@ namespace WindowsFormsApp6
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Server =MIT-STDN-H233\\SQLEXPRESS; Database = Northwind; Integrated Security = true ");
+            SqlConnection con = new SqlConnection("Server =MIT-STD-H7\\SQLEXPRESS; Database = Northwind; Integrated Security = true ");
 
             //SqlCommand cmd = con.CreateCommand();
 
