@@ -1,0 +1,20 @@
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\obj\Debug\Company_Database.csprojAssemblyReference.cache
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\obj\Debug\Company_Database.Properties.Resources.resources
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\obj\Debug\Company_Database.csproj.GenerateResource.cache
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\obj\Debug\Company_Database.csproj.CoreCompileInputs.cache
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\bin\Debug\Company_Database.exe.config
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\bin\Debug\Company_Database.exe
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\bin\Debug\Company_Database.pdb
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\obj\Debug\Company_Database.exe
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\obj\Debug\Company_Database.pdb
+C:\Users\MAHE\source\repos\Company_Database\Company_Database\obj\Debug\Company_Database.Form1.resources
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\bin\Debug\Company_Database.exe.config
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\bin\Debug\Company_Database.exe
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\bin\Debug\Company_Database.pdb
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\obj\Debug\Company_Database.csprojAssemblyReference.cache
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\obj\Debug\Company_Database.Form1.resources
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\obj\Debug\Company_Database.Properties.Resources.resources
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\obj\Debug\Company_Database.csproj.GenerateResource.cache
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\obj\Debug\Company_Database.csproj.CoreCompileInputs.cache
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\obj\Debug\Company_Database.exe
+C:\Users\MAHE\Desktop\Wipro PJP\git_\Hands_on_18-feb\TM-07_ADO.NET\Company_Database\Company_Database\obj\Debug\Company_Database.pdb
