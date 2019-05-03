@@ -69,7 +69,7 @@ namespace MovieTicketBooking
 
         }
 
-
+    
         public void DisplayTheatreDetails()
         {
             Console.WriteLine("details of the movie:");
