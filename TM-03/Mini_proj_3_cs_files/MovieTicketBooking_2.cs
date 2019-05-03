@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MovieTicketBooking;
+using MovieTicketBooking_1;
 
-namespace Mini_proj_3
+namespace MovieTicketBooking_2
 {
     public interface IAdmin
     {
@@ -15,7 +15,7 @@ namespace Mini_proj_3
         bool UpdateMovie(Movie obj);
         bool AddShow(Show obj);
         bool UpdateShow(Show obj);
-        bool DeleteShow(Show obj);
+        bool DeleteShow(int ShowID);
         bool AddAgent(User obj);
         List<Theatre> GetAllTheatres();
         List<Movie> GetAllMovies();
@@ -193,12 +193,125 @@ namespace Mini_proj_3
 
         }
 
+        public bool AddShow(Show obj)
+        {
+            bool flag = false;
+            if (obj.MovieID == null || obj.TheatreID == null || obj.ScreenID == null || obj.StartDate == null || obj.EndDate == null || obj.PlatinumSeatRate == null || obj.GoldSeatRate == null || obj.SilverSeatRate == null)
+            {
+                Console.WriteLine("Show details should not be empty");
+            }
+            else if (obj.MovieID != obj.ShowID || obj.TheatreID != obj.ShowID || obj.ScreenID != obj.ShowID)
+            {
+                Console.WriteLine("Inappropriate data found");
+
+            }
+            else
+            {
+                //add this obj to shows collection of MovieTicketing class
+                flag = true;
+            }
+            return flag;
+
+        }
+
+        public bool UpdateShow(Show obj)
+        {
+            bool flag = false;
+            Console.WriteLine("What are the updated show details???");
+
+            int m_id = int.Parse(Console.ReadLine());
+            int t_id = int.Parse(Console.ReadLine());
+            int sc_id = int.Parse(Console.ReadLine());
+
+            DateTime s_date = DateTime.Parse(Console.ReadLine());
+            DateTime e_date = DateTime.Parse(Console.ReadLine());
+            decimal p_rate = decimal.Parse(Console.ReadLine());
+            decimal g_rate = decimal.Parse(Console.ReadLine());
+            decimal s_rate = decimal.Parse(Console.ReadLine());
+
+            if (m_id == null || t_id == null || sc_id == null || s_date == null || e_date == null || p_rate == null || g_rate == null || s_rate == null)
+            {
+                Console.WriteLine("Show details should not be empty!!!!");
+            }
+            else if (m_id != obj.ShowID || t_id != obj.ShowID || sc_id != obj.ShowID)
+            {
+                Console.WriteLine("Inappropriate data found");
+            }
+            else
+            {
+                obj.MovieID = m_id;
+                obj.TheatreID = t_id;
+                obj.ScreenID = sc_id;
+                obj.StartDate = s_date;
+                obj.EndDate = e_date;
+                Show.PlatinumSeatRate = p_rate;
+                Show.GoldSeatRate = g_rate;
+                Show.SilverSeatRate = s_rate;
+                flag = true;
+            }
+            return flag;
+        }
+
+        public bool DeleteShow(int ShowID)
+        {
+
+           if (ShowID == obj.ShowID)
+            {
+                obj = null;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+        public bool AddAgent(User obj)
+        {
+            bool flag = false;
+            try
+            {
+                if (obj == null)
+                {
+                    throw new Exception();
+                }
+
+                else
+                {
+                    if (obj.UserName == null || obj.Password == null || obj.UserType == null)
+                    {
+                        Console.WriteLine("User info cant be empty");
+                    }
+
+                    else
+                    {
+                        //Add the obj to the User info collection
+                        flag = true;
+                    }
+                }
+            }
+           
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }            
+            return flag;
+
+        }
+
+        public List<Theatre> GetAllTheatres()
+        {
+
+        }
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

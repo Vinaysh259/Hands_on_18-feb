@@ -1,0 +1,2 @@
+C:\Users\MAHE\source\repos\Mini_proj_3\Mini_proj_3\obj\Debug\Mini_proj_3.csprojAssemblyReference.cache
+C:\Users\MAHE\source\repos\Mini_proj_3\Mini_proj_3\obj\Debug\Mini_proj_3.csproj.CoreCompileInputs.cache
